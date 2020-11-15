@@ -1,0 +1,167 @@
+#container-CardTipoInv #container {
+  /* background-color: rgb(39, 197, 137); */
+  background-color: #7676de;
+  height: 100vh;
+}
+
+
+.buttom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttom a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border-radius: 15px; */
+  height: 8rem;
+  width: 38rem;
+}
+
+/* -------CARRUSEL-------- */
+
+.swiper-container {
+  width: 100%;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.swiper-slide {
+  background-size: cover;
+  width: 10rem;
+  height: 56rem;
+  border-radius: 8px;
+  transition: 200ms;
+
+}
+
+.card-one,
+.card-two,
+.card-three {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  height: 100%;
+  color: white;
+  border-radius: 15px;
+}
+
+.card-one {
+  background-color: #242559;
+  width: 90%;
+}
+
+.card-one:hover{
+  box-shadow: 8px 11px 7px rgba(0, 0, 0, 0.25);
+}
+
+.card-two {
+  background-color: #ffffff;
+  width:90%
+}
+
+.card-two:hover{
+  box-shadow: 8px 11px 7px rgba(0, 0, 0, 0.25);
+}
+
+.card-three {
+  background-color: #ffffff;
+}
+
+.card-three:hover{
+  box-shadow: 8px 11px 7px rgba(0, 0, 0, 0.25);
+}
+
+.tipoInv {
+  margin-top: 6rem;
+  font-weight: 700;
+  color: #242559;
+}
+
+.tipoInv img{
+  width:68px;
+  height: 68px;
+}
+
+.card-one .tipoInv img{
+  filter: brightness(100);
+  width:16rem;
+  height: 8rem;
+}
+
+.description {
+  margin-top: 5rem;
+  width: 40rem;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+}
+
+.card-one .description h1{
+  color:  #ffffff;
+  font-size: 5rem;
+  line-height: 8rem;
+}
+
+.card-two .description h1{
+  color:  #7676de;
+  font-size: 5rem;
+  line-height: 8rem;
+}
+
+.card-three .description h1{
+  color:  #061247;
+  font-size: 5rem;
+  line-height: 8rem;
+}
+
+.card-one a,
+.card-two a,
+.card-three a {
+  margin-top: 4rem;
+  color: white;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+}
+
+.card-one .buttom img{
+  margin-top: 9rem;
+  height: 68px;
+}
+
+.card-one .buttom img+img{
+  margin-left: 12rem ;
+}
+
+.card-two .buttom #confirm-lateral{
+  background: white;
+  color: #7676de;
+  border:  1px solid #7676de;
+  margin-top: 12rem;
+}
+
+.card-three .buttom #confirm-lateral {
+  background: white;
+  color: #242559;
+  border:  1px solid #242559;
+  margin-top: 4rem;
+}
+
+
+
+footer{
+    padding-right: 2rem;
+    padding-left: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+

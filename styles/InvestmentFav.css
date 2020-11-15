@@ -1,0 +1,68 @@
+#container-InvestmentFav{
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.titulo h1{
+    margin-top: 4rem;
+    text-align: center;
+    color:#061247;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 6rem;
+    gap: 4rem;
+}
+
+.invest--card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 15px;
+
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    box-shadow: 0px 4px 4px -1px rgba(0, 0, 0, 0.25); 
+}
+
+.invest--card img{
+    width:50px;
+}
+
+.description{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .description p{
+    color: #505053;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  .description h1, .description h2{
+    margin-top: 0.5rem;
+    color: #222224d0;
+    font-size: 1.5rem;
+  }
+  
+  .description .tipoRisco{
+    width:95%;
+    display: flex;
+    justify-content: space-between;
+    margin-top:1rem;
+  }
+
+  .tipoRisco p{
+    font-size: 1rem;
+  }
+  
+  .tipoRisco p:nth-child(1){
+    color: #db8514;
+    font-weight: 700;
+  }
